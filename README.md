@@ -1,37 +1,37 @@
 # Finals-Lab-Task-3
 This portfolio demonstrates how to learn MySQL by designing and managing a product database. The process involves creating a table, setting up constraints, entering valid data, and modifying table structure using straightforward SQL commands.
 
-Step 1: Build a Product Table
-Create a table called products with the following columns:
+##Step 1: Build a Product Table
+-Create a table called products with the following columns:
 
-id: Set as the primary key with auto-increment.
+-id: Set as the primary key with auto-increment.
 
-product_name: A text field with a maximum length of 100 characters, which cannot be null.
+-product_name: A text field with a maximum length of 100 characters, which cannot be null.
 
-price: A decimal value.
+-price: A decimal value.
 
-Step 2: Apply a Constraint
-Add a CHECK constraint to ensure that the price is greater than zero.
+##Step 2: Apply a Constraint
+-Add a CHECK constraint to ensure that the price is greater than zero.
 
-Step 3: Insert Valid Data
-Add entries with positive prices, such as:
+##Step 3: Insert Valid Data
+-Add entries with positive prices, such as:
 
-Laptop – 999.99
+-Laptop – 999.99
 
-Smartphone – 599.99
+-Smartphone – 599.99
 
-Tablet – 299.99
+-Tablet – 299.99
 
-Keyboard – 19.99
+-Keyboard – 19.99
 
-Mouse – 14.99
+-Mouse – 14.99
 
-Desk Lamp – 24.99
+-Desk Lamp – 24.99
 
-Speakers – 9.99
+-Speakers – 9.99
 Exclude any products with negative prices.
 
-Step 4: Modify the Table
+##Step 4: Modify the Table
 Update the product_name column to allow up to 120 characters.
 
 ##Screenshots
